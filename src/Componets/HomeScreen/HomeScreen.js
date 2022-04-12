@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomeScreen = () => {
   return (
@@ -13,11 +14,10 @@ const HomeScreen = () => {
             ipsum sed consequuntur illum facere.
           </p>
              <div>
-
-                            <a class="btn btn-style mt-sm-5 mt-4 mr-2" href="about.html">
-                              Get Started as an Inovator</a>
-                            <a class="btn btn-style mt-sm-5 mt-4 mr-2" href="about.html">
-            Register as a BM</a>
+                           <Link to = "/register">    <a class="btn btn-style mt-sm-5 mt-4 mr-2" >
+                             INOVATOR</a></Link>
+                            <Link to ='/signin'>   <a class="btn btn-style mt-sm-5 mt-4 mr-2" >  BDM</a></Link>
+           
              </div>
         </div>
         <div class="col-lg-6 bannerhny-info-img mt-lg-0 mt-5 pl-lg-5">
